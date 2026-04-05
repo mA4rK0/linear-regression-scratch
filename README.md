@@ -204,7 +204,8 @@ b₁ ← b₁ − α · ∂MSE/∂b₁
 | ----------------------- | --------------------------------------------------------------- | ---------------- | ------------- | ---- |
 | `alpha` (learning rate) | Step size per update. Too large → overshoots. Too small → slow. | 0.001 – 0.1      |
 | `max_epochs`            | Maximum iterations. Training stops early if converged.          | 500 – 5000       |
-| `tolerance`             | Convergence threshold: stop when `                              | prev_loss - loss | < tolerance`. | 1e-6 |
+| `tolerance`             | Convergence threshold: stop when                                | prev_loss - loss | < tolerance. | 1e-6 |
+
 
 ---
 
